@@ -1,0 +1,41 @@
+Hello World!
+=====================================================================
+String Interpolation: Some Value
+=====================================================================
+Integers: 1 21 46 87
+Float: 3.5
+Boolean: false true, is_boolean: true
+Atom / Symbol: some_symbol, is_atom: true
+String: A String
+List (linear lookup, cheap updation or addtion): foo
+=====================================================================
+Addition: 8
+Subtraction: -4
+Multiplication: 10
+Division (always returns float): 5.0
+Use `div/2` to return integer on division: 2
+Use `rem/2` to return reminder: 2
+Use `round/1` to roundoff value: 3 4
+Use `trunc/1` to truncate decimals value: 3 3
+`true`, `false` & `nil` are special atoms: true true
+=====================================================================
+Strings are binaries: true
+Number of bytes (ö takes two bytes): 6
+Length of string: 5
+Upper case: HELLÖ
+=====================================================================
+Add two numbers: 6
+is_function: true
+is_function/2: true
+is_function/1: false
+=====================================================================
+l1: abcdefg; l2: gc
+Concat: abcdefggc
+Subtract: abdef
+Head hd(l1): a
+Tail tl(l1): bcdefg
+=====================================================================
+Size of tuple: 3
+get 2nd element: b
+new 2nd element: c
+=====================================================================
