@@ -9,7 +9,7 @@ IO.puts "String Interpolation: #{value}"
 IO.puts "====================================================================="
 
 # Basic Types
-IO.puts "Integers: #{1} #{0xAD} #{0o56} #{0x57}"
+IO.puts "Integers: #{1} #{0b10101} #{0o56} #{0x57}"
 IO.puts "Float: #{3.5}"
 IO.puts "Boolean: #{false} #{true}, is_boolean: #{is_boolean(true)}"
 IO.puts "Atom / Symbol: #{:some_symbol}, is_atom: #{is_atom(:some_atom)}"
@@ -65,5 +65,4 @@ IO.puts "get 2nd element: #{elem t, 1}"
 # Replace 2nd element; returns a new tuple
 t = put_elem(t, 1, :c)
 IO.puts "new 2nd element: #{elem(t, 1)}"
-IO.puts ": #{}"
 IO.puts "====================================================================="
