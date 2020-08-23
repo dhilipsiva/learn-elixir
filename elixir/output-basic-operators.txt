@@ -1,0 +1,8 @@
+String concatenation <>: Hello World!
+or: true
+or: Some Text
+false: false
+!: true
+!: false
+==, !=, ===, !==, <=, >=, < and >
+true true true true false
